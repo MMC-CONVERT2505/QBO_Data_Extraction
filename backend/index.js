@@ -34,7 +34,7 @@ app.use((req, res, next) => {
 app.use("/", qboRoutes);
 app.use("/", attachmentsRoutes);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3002;
 app.listen(PORT, () => {
   console.log(`🚀 Backend running at http://localhost:${PORT}`);
   console.log("✅ PUBLIC_URL will auto-detect from incoming requests.");
